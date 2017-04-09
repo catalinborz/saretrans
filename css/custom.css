@@ -1,0 +1,591 @@
+/*---------------body font setting----------------*/
+
+html {
+		font-size: 1em;
+	}
+
+	body {
+	  font-family: 'Open Sans', sans-serif;
+	  font-weight: 400;
+	  line-height: 1.45;
+	  position: relative;
+	}
+
+	p {
+		margin-bottom: 1.3em;
+	}
+
+	h1, h2, p {
+	  margin: 1.414em 0 0.5em;
+	  font-weight: inherit;
+	  line-height: 1.2;
+	}
+
+	h1 {
+	  margin-top: 0;
+	  font-size: 3.157em;
+	}
+
+	h2 {
+		font-size: 2.369em;
+	}
+
+	p {
+		font-size: 1.333em;
+	}
+
+	small, .font_small {
+		font-size: 0.75em;
+	}
+	
+	.section_title li {
+	  margin: 0.8em 0 0.2em;
+	  font-weight: inherit;
+	  line-height: 1.2;
+	  font-size: 1.333em;
+	}
+	
+	.section_title tr {
+	  margin: 1em 0 0.2em;
+	  font-weight: inherit;
+	  line-height: 1.5;
+	  font-size: 1.333em;
+	  border: 1px solid red;
+	}
+	
+	.section_title a {
+	  margin: 1em 0 0.2em;
+	  font-weight: inherit;
+	  line-height: 1.2;
+	  font-size: 1.333em;
+	}
+	
+/*---------------end of body font setting----------------*/
+
+.nav.navbar-nav.navbar-left li a {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 1.25em;
+	line-height: 30px;
+}
+
+.navbar-default, .navbar-collapse{
+	color: #000;
+	background-color: #fff;
+}
+
+.container-fluid{
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+}
+
+.navbar li+li {
+	border-left: 1px solid rgba(0,0,0,.4);
+}
+
+.nav li:first-child a {
+  border-left: 1px solid rgba(0,0,0,.4);/*first navbar list item left border*/
+}
+
+.nav li:last-child a {
+  border-right: 1px solid rgba(0,0,0,.4);/*first navbar list item right border*/
+}
+
+.container{
+	height: auto;
+}
+
+.row{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#logo{
+	display: block;
+	margin: 0 auto;
+}
+
+.div_header_text{
+	font-family: 'Libre Baskerville', serif;
+}
+
+.div_header_text p{
+	font-style: italic;
+}
+
+.div_background_logo{
+	width: 100%;
+}
+
+.promo{
+	text-align: center;
+}
+
+.section_title h1{
+	text-align: center;
+	font-weight: bold;
+}
+
+.section_title h3{
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 3%;
+}
+
+.section_title p{
+	text-align: left;
+}
+
+.indent{
+	text-indent: 5%;
+}
+
+/*----------------------------------------------Product gallery---------------------*/
+
+.thumbnails{
+	width: 70%;
+	height: 0;
+	margin: 0 auto;
+	padding-bottom: 55%;
+	background-repeat: no-repeat;	
+	background-size: cover;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.6);
+}
+
+#thumbnail1{
+	background-image: url("../img/Produse/sare grunjoasa alba.jpg");
+	background-position: center center;
+}
+
+#thumbnail2{
+	background-image: url("../img/Produse/bulgari de sare grunji.jpg");
+	background-position: center center;
+}
+
+#thumbnail3{
+	background-image: url("../img/Produse/grill_de_sare.png");
+	background-position: center center;
+}
+
+#thumbnail4{
+	background-image: url("../img/Produse/caramida-de-sare.png");
+	background-position: center center;
+}
+
+#thumbnail5{
+	background-image: url("../img/Produse/sapun-de-sare.png");
+	background-position: bottom center;
+}
+
+#thumbnail6{
+	background-image: url("../img/Produse/sare de baie rasf1.jpg");
+	background-position: bottom center;
+}
+
+#thumbnail7{
+	background-image: url("../img/Produse/lampa_de_sare.png");
+	background-position: center center;
+}
+
+#thumbnail8{
+
+	background-image: url("../img/Produse/irigator nazal.jpg");
+	background-position: center center;
+}
+
+#thumbnail9{
+	background-image: url("../img/Produse/Dummy.jpg");
+	background-position: center center;
+}
+
+#thumbnail10{
+	background-image: url("../img/Produse/sare grunjoasa alba.jpg");
+	background-position: center center;
+}
+
+#thumbnail11{
+	background-image: url("../img/Produse/bulgari de sare grunji.jpg");
+	background-position: center center;
+}
+
+#thumbnail12{
+	background-image: url("../img/Produse/pat_sare.jpg");
+	background-position: center center;
+}
+
+#thumbnail13{
+	background-image: url("../img/Produse/Dummy.jpg");
+	background-position: center center;
+}
+
+#thumbnail14{
+	background-image: url("../img/Produse/mini_sapun_de_sare.png");
+	background-position: center center;
+}
+
+#thumbnail15{
+	background-image: url("../img/Produse/Cub-1.jpg");
+	background-position: center center;
+}
+
+#thumbnail16{
+	background-image: url("../img/Produse/candela_de_sare1.png");
+	background-position: center center;
+}
+
+#thumbnail17{
+	background-image: url("../img/Produse/pipa de sare1.jpg");
+	background-position: center center;
+}
+
+#thumbnail18{
+	background-image: url("../img/Produse/scrumiera.jpg");
+	background-position: center center;
+}
+
+#thumbnail19{
+	background-image: url("../img/Produse/sare grunjoasa alba.jpg");
+	background-position: center center;
+}
+
+#thumbnail20{
+	background-image: url("../img/Produse/Dummy.jpg");
+	background-position: center center;
+}
+
+#thumbnail21{
+	background-image: url("../img/Produse/Dummy.jpg");
+	background-position: center center;
+}
+
+#thumbnail22{
+	background-image: url("../img/Produse/Dummy.jpg");
+	background-position: center center;
+}
+
+#thumbnail23{
+	background-image: url("../img/Produse/sare de baie rasf1.jpg");
+	background-position: center center;
+}
+
+#thumbnail24{
+	background-image: url("../img/Produse/Dummy.jpg");
+	background-position: center center;
+}
+
+#thumbnail25{
+	background-image: url("../img/Produse/perina-de-sare.png");
+	background-position: center center;
+}
+
+#thumbnail26{
+	background-image: url("../img/Produse/Placari_cu_sare.jpg");
+	background-position: center center;
+}
+
+/*-----------------------------------End of Product gallery---------------------*/
+
+/*-----------------------------------Section photos---------------------*/
+
+.sections{
+	height: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin: 0 auto;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+}
+
+#section_photo1{
+	background-image: url("../img/despre sare/straturile-de-sare.png");
+}
+
+#section_photo2{
+	background-image: url("../img/despre sare/halitul.png");
+}
+
+#section_photo3{
+	background-image: url("../img/despre sare/magneziu.png");
+}
+
+#section_photo4{
+	background-image: url("../img/despre sare/microelemente.png");
+}
+
+#section_photo5{
+	background-image: url("../img/despre sare/namol-preistoric.png");
+}
+/*-----------------------------------End of Section photos---------------------*/
+
+.hidden{
+	display: none;	
+}
+
+.thumbnail_caption p{
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 15%;
+}
+
+.section_caption p{
+	display: block;
+	text-align: center;
+	margin-top: 1.5%;
+}
+
+	@-webkit-keyframes transition
+	{
+	15%
+	{
+		-webkit-transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+	30%
+	{
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+	50%
+	{
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	}
+
+	65%
+	{
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+
+	80%
+	{
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+
+	100%
+	{
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	}
+
+	@keyframes transition
+	{
+	15%
+	{
+		-webkit-transform: translateX(5px);
+		transform: translateX(5px);
+	}
+
+	30%
+	{
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+	50%
+	{
+		-webkit-transform: translateX(3px);
+		transform: translateX(3px);
+	}
+
+	65%
+	{
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+
+	80%
+	{
+		-webkit-transform: translateX(2px);
+		transform: translateX(2px);
+	}
+
+	100%
+	{
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	}
+
+	.transition:hover
+	{
+		-webkit-animation: transition 1s ease;
+		animation: transition 1s ease;
+		-webkit-animation-iteration-count: 1;
+		animation-iteration-count: 1;
+	}
+	
+	table, td, th {
+    border: 1px solid grey;
+	}
+
+	table {
+		min-width: 40%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	th {
+		height: 50px;
+	}
+	
+	.section_title iframe{
+		box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	}
+
+/*------------------Break points----------------------------------------*/
+/*----------------------------------------------------------------------*/
+@media(max-width: 371px){
+	
+	.div_header_text{
+		padding-top: 10px;		
+	}		
+	
+	.div_header_text h2{
+		font-size: 2em;
+	}
+	
+	.div_header_text p{
+		font-size: 1.2em;
+	}
+}
+
+/*------------small and medium screen settings-----------*/
+/*----------------------- sticky navbar for screen smaller than 783px(browser dimension)-----------*/
+
+@media(max-width: 767px){ /*navbar collaps at 783px -value measured in browser*/
+
+	.header{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 300px;
+	}
+	
+	.navbar{
+		height: 60px;
+		margin-bottom: -410px;
+		margin-top: 300px;/*navbar moved under the header with a margin equal with the header height*/
+		z-index: 10;
+	}
+
+	.navbar.affix{
+		width: 100%;
+		left: 0;
+		margin-top: 0;
+		margin-bottom: 0;
+		z-index: 10;
+	}
+	
+	.main{
+		position: relative;
+		margin-top: 350px;
+		background-color: #fff;
+		z-index: 5;
+	}
+	
+/*---------------------------- end of sticky navbar for screen smaller than 783px--------------------------*/	
+	
+	.promo{
+		margin-top: 40px;
+		margin-bottom: 30px;
+		color: red;
+	}
+	
+	#logo{
+		padding-top: 10px;
+	}
+	
+	.div_header_text h2, p{
+		text-align: center;
+		left: 0;
+		width: 100%;
+	}
+	
+	.div_header_text h2{
+		margin-top: 20px;
+	}
+	
+	.div_header_text p{
+		margin-top: 0;
+	}
+	
+	.sections{
+		width: 70%;
+		padding-bottom: 60%;
+		margin-top: 8%;	
+	}
+	
+	.section_title h1{
+		padding: 15.5% 0 3.5% 0;
+	}
+	
+	.section_title h3{
+		text-align: center;
+	}
+}
+/*------------end of small and medium screen settings-----------*/
+
+/*----------------------------------large screen settings-------------------------------*/
+/*----------------------- fixed div "#fixed_div_lg" for bigger screens than 783px(browser dimension)-----------*/
+
+@media(min-width: 768px){
+	
+	#fixed_div_lg{
+		height: 250px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+	}
+	
+	.main{
+		position: relative;
+		margin-top: 250px;
+		background-color: #fff;
+		z-index: -1;
+	}
+	
+	.promo{
+		margin-bottom: 40px;
+		color: red;
+	}
+	
+	#logo{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.div_header_text{
+		transform: translateY(20px);
+	}
+	
+	.div_header_text p{
+		margin: 0;
+	}
+	
+	.navbar{
+		width: 100%;
+	}
+	
+	.sections{
+		width: 35%;
+		padding-bottom: 25%;
+		margin-top: 3%;
+	}
+	
+	.section_title h1{
+		padding: 3.5% 0 3.5% 0;
+	}
+	
+	.section_title h3{
+		text-align: left;
+	}
+}	
+/*----------------------------------end of large screen settings-------------------------------*/
