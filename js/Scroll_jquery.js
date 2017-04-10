@@ -10,7 +10,7 @@ $(document).ready(function(){
 		  if (target.length) {
 			$('html, body').animate({
 			  scrollTop: target.offset().top-230/*scroll offset for large screen*/
-			}, 2500);
+			}, 1800);
 			return false;
 		  }
 		}
@@ -26,7 +26,7 @@ $(document).ready(function(){
 		  if (target.length) {
 			$('html, body').animate({
 			  scrollTop: target.offset().top-30/*scroll offset for small screen*/
-			}, 1700);
+			}, 1500);
 			return false;
 		  }
 		}
